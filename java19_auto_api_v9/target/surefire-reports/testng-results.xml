@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="24" passed="23">
+  <reporter-output>
+  </reporter-output>
+  <suite name="xxx项目" duration-ms="8953" started-at="2020-08-18T15:17:07Z" finished-at="2020-08-18T15:17:15Z">
+    <groups>
+    </groups>
+    <test name="keyou-注册" duration-ms="6425" started-at="2020-08-18T15:17:07Z" finished-at="2020-08-18T15:17:13Z">
+      <class name="com.lemon.cases.KeyouRegisterCase">
+        <test-method status="PASS" signature="beforeClass(int)[pri:0, instance:com.lemon.cases.KeyouRegisterCase@3e3593]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-08-18T23:17:07Z" finished-at="2020-08-18T23:17:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.KeyouRegisterCase@3e3593]" name="test" duration-ms="4687" started-at="2020-08-18T23:17:08Z" data-provider="datas" finished-at="2020-08-18T23:17:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=1, name='register', url='http://api.keyou.site:8000/user/register/', method='post', params='{"username":"","email":"140225966@qq.com","password":"123","password_confirm":"123"}', contentType='json', expectResult='{"$.username":["该字段不能为空。"]}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.KeyouRegisterCase@3e3593]" name="test" duration-ms="99" started-at="2020-08-18T23:17:12Z" data-provider="datas" finished-at="2020-08-18T23:17:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=2, name='register', url='http://api.keyou.site:8000/user/register/', method='post', params='{"username":"777777","email":"**-com","password":"123","password_confirm":"123"}', contentType='json', expectResult='{"$.password_confirm":["仅允许6~20个字符的确认密码"]}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.KeyouRegisterCase@3e3593]" name="test" duration-ms="92" started-at="2020-08-18T23:17:12Z" data-provider="datas" finished-at="2020-08-18T23:17:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=3, name='register', url='http://api.keyou.site:8000/user/register/', method='post', params='{"username":"789456","email":"140225966@qq.com","password":"123","password_confirm":"123"}', contentType='json', expectResult='{"$.password":["仅允许6-20个字符的密码"]}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.KeyouRegisterCase@3e3593]" name="test" duration-ms="101" started-at="2020-08-18T23:17:13Z" data-provider="datas" finished-at="2020-08-18T23:17:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=4, name='register', url='http://api.keyou.site:8000/user/register/', method='post', params='{"username":"456788","email":"140225967@qq.com","password":"123456","password_confirm":"123789"}', contentType='json', expectResult='{"$.non_field_errors":["两次输入密码不正确"]}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.KeyouRegisterCase@3e3593]" name="test" duration-ms="217" started-at="2020-08-18T23:17:13Z" data-provider="datas" finished-at="2020-08-18T23:17:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=5, name='register', url='http://api.keyou.site:8000/user/register/', method='post', params='{"username":"456789","email":"14026@qq.com","password":"123456","password_confirm":"123456"}', contentType='json', expectResult='{"$.username":"456789"}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.KeyouRegisterCase@3e3593]" name="test" duration-ms="92" started-at="2020-08-18T23:17:13Z" data-provider="datas" finished-at="2020-08-18T23:17:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=6, name='register', url='http://api.keyou.site:8000/user/register/', method='post', params='{"username":"456789","email":"140225966@qq.com","password":"123456","password_confirm":"123456"}', contentType='json', expectResult='{"$.username":["已存在一位使用该名字的用户。"]}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.lemon.cases.KeyouRegisterCase -->
+    </test> <!-- keyou-注册 -->
+    <test name="keyou-登录" duration-ms="914" started-at="2020-08-18T15:17:13Z" finished-at="2020-08-18T15:17:14Z">
+      <class name="com.lemon.cases.KeyyouLoginCase">
+        <test-method status="PASS" signature="beforeClass(int)[pri:0, instance:com.lemon.cases.KeyyouLoginCase@9621f3]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-08-18T23:17:13Z" finished-at="2020-08-18T23:17:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.KeyyouLoginCase@9621f3]" name="test" duration-ms="94" started-at="2020-08-18T23:17:13Z" description="keyou登录测试description属性" data-provider="datas" finished-at="2020-08-18T23:17:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=1, name='login', url='http://api.keyou.site:8000/user/login/', method='post', params='{"username":"","password":"123456"}', contentType='json', expectResult='{"$.username":["该字段不能为空。"]}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.KeyyouLoginCase@9621f3]" name="test" duration-ms="206" started-at="2020-08-18T23:17:13Z" description="keyou登录测试description属性" data-provider="datas" finished-at="2020-08-18T23:17:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=2, name='login', url='http://api.keyou.site:8000/user/login/', method='post', params='{"username":"56756789","password":"123456"}', contentType='json', expectResult='{
+    "$.non_field_errors": [
+        "无法使用提供的认证信息登录。"
+    ]
+}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.KeyyouLoginCase@9621f3]" name="test" duration-ms="101" started-at="2020-08-18T23:17:13Z" description="keyou登录测试description属性" data-provider="datas" finished-at="2020-08-18T23:17:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=3, name='login', url='http://api.keyou.site:8000/user/login/', method='post', params='{"username":"456789","password":""}', contentType='json', expectResult='{
+    "$.password": [
+        "该字段不能为空。"
+    ]
+}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.KeyyouLoginCase@9621f3]" name="test" duration-ms="220" started-at="2020-08-18T23:17:13Z" description="keyou登录测试description属性" data-provider="datas" finished-at="2020-08-18T23:17:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=4, name='login', url='http://api.keyou.site:8000/user/login/', method='post', params='{"username":"456789","password":"456"}', contentType='json', expectResult='{
+    "$.non_field_errors": [
+        "无法使用提供的认证信息登录。"
+    ]
+}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.KeyyouLoginCase@9621f3]" name="test" duration-ms="220" started-at="2020-08-18T23:17:14Z" description="keyou登录测试description属性" data-provider="datas" finished-at="2020-08-18T23:17:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=5, name='login', url='http://api.keyou.site:8000/user/login/', method='post', params='{"username":"456789","password":"123456"}', contentType='json', expectResult='{"$.username":"456789"}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.lemon.cases.KeyyouLoginCase -->
+    </test> <!-- keyou-登录 -->
+    <test name="keyou-配置列表" duration-ms="432" started-at="2020-08-18T15:17:14Z" finished-at="2020-08-18T15:17:14Z">
+      <class name="com.lemon.cases.KeyouConfigures">
+        <test-method status="PASS" signature="beforeClass(int)[pri:0, instance:com.lemon.cases.KeyouConfigures@1a590ba]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-08-18T23:17:14Z" finished-at="2020-08-18T23:17:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.KeyouConfigures@1a590ba]" name="test" duration-ms="101" started-at="2020-08-18T23:17:14Z" description="keyou配置列表description属性" data-provider="datas" finished-at="2020-08-18T23:17:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=1, name='configures', url='http://api.keyou.site:8000/configures/?page=1&size=2', method='get', params='null', contentType='json', expectResult='{"$.current_page_num": 1}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.KeyouConfigures@1a590ba]" name="test" duration-ms="93" started-at="2020-08-18T23:17:14Z" description="keyou配置列表description属性" data-provider="datas" finished-at="2020-08-18T23:17:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=2, name='configures', url='http://api.keyou.site:8000/configures/?page=2&size=1', method='get', params='null', contentType='json', expectResult='{"$.current_page_num": 2}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.KeyouConfigures@1a590ba]" name="test" duration-ms="98" started-at="2020-08-18T23:17:14Z" description="keyou配置列表description属性" data-provider="datas" finished-at="2020-08-18T23:17:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=3, name='configures', url='http://api.keyou.site:8000/configures/?page=0&size=0', method='get', params='null', contentType='json', expectResult='{
+    "$.detail": "无效页面。"
+}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.KeyouConfigures@1a590ba]" name="test" duration-ms="91" started-at="2020-08-18T23:17:14Z" description="keyou配置列表description属性" data-provider="datas" finished-at="2020-08-18T23:17:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=4, name='configures', url='http://api.keyou.site:8000/configures/?page=3&size=10', method='get', params='null', contentType='json', expectResult='{
+    "$.detail": "无效页面。"
+}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.lemon.cases.KeyouConfigures -->
+    </test> <!-- keyou-配置列表 -->
+    <test name="keyou-项目列表" duration-ms="501" started-at="2020-08-18T15:17:14Z" finished-at="2020-08-18T15:17:15Z">
+      <class name="com.lemon.cases.KeyouProjects">
+        <test-method status="PASS" signature="beforeClass(int)[pri:0, instance:com.lemon.cases.KeyouProjects@10b1b2e]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-08-18T23:17:14Z" finished-at="2020-08-18T23:17:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.KeyouProjects@10b1b2e]" name="test" duration-ms="104" started-at="2020-08-18T23:17:14Z" description="keyou项目列表description属性" data-provider="datas" finished-at="2020-08-18T23:17:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=1, name='projects', url='http://api.keyou.site:8000/projects/?page=1&size=2', method='get', params='null', contentType='json', expectResult='{"$.current_page_num": 1}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.KeyouProjects@10b1b2e]" name="test" duration-ms="105" started-at="2020-08-18T23:17:15Z" description="keyou项目列表description属性" data-provider="datas" finished-at="2020-08-18T23:17:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=2, name='projects', url='http://api.keyou.site:8000/projects/?page=2&size=1', method='get', params='null', contentType='json', expectResult='{"$.current_page_num": 2}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.KeyouProjects@10b1b2e]" name="test" duration-ms="91" started-at="2020-08-18T23:17:15Z" description="keyou项目列表description属性" data-provider="datas" finished-at="2020-08-18T23:17:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=3, name='projects', url='http://api.keyou.site:8000/projects/?page=0&size=0', method='get', params='null', contentType='json', expectResult='{
+    "$.detail": "无效页面。"
+}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.KeyouProjects@10b1b2e]" name="test" duration-ms="147" started-at="2020-08-18T23:17:15Z" description="keyou项目列表description属性" data-provider="datas" finished-at="2020-08-18T23:17:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=4, name='projects', url='http://api.keyou.site:8000/projects/?page=3&size=10', method='get', params='null', contentType='json', expectResult='{"$.current_page_num": 3}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.lemon.cases.KeyouProjects -->
+    </test> <!-- keyou-项目列表 -->
+    <test name="keyou-创建项目" duration-ms="623" started-at="2020-08-18T15:17:15Z" finished-at="2020-08-18T15:17:15Z">
+      <class name="com.lemon.cases.KeyouCreateProjects">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.lemon.cases.KeyouCreateProjects@19b7332]" name="init" is-config="true" duration-ms="29" started-at="2020-08-18T23:17:07Z" finished-at="2020-08-18T23:17:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="beforeClass(int)[pri:0, instance:com.lemon.cases.KeyouCreateProjects@19b7332]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-08-18T23:17:15Z" finished-at="2020-08-18T23:17:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.KeyouCreateProjects@19b7332]" name="test" duration-ms="151" started-at="2020-08-18T23:17:15Z" description="keyou创建项目列表description属性" data-provider="datas" finished-at="2020-08-18T23:17:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=1, name='projects', url='http://api.keyou.site:8000/projects/', method='post', params='{"name":"","leader":"123","tester":"123","programmer":"123","publish_app":"1.0"}', contentType='json', expectResult='{"$.name":["该字段不能为空。"]}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.KeyouCreateProjects@19b7332]" name="test" duration-ms="93" started-at="2020-08-18T23:17:15Z" description="keyou创建项目列表description属性" data-provider="datas" finished-at="2020-08-18T23:17:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=2, name='projects', url='http://api.keyou.site:8000/projects/', method='post', params='{"name":"123","leader":"","tester":"123","programmer":"123","publish_app":"1.0"}', contentType='json', expectResult='{"$.leader":["该字段不能为空。"]}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="FAIL" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.KeyouCreateProjects@19b7332]" name="test" duration-ms="106" started-at="2020-08-18T23:17:15Z" description="keyou创建项目列表description属性" data-provider="datas" finished-at="2020-08-18T23:17:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=3, name='projects', url='http://api.keyou.site:8000/projects/', method='post', params='{"name":"999","leader":"19","tester":"19","programmer":"19","publish_app":"1.0"}', contentType='json', expectResult='{"$.name":["具有 项目名称 的 项目信息 已存在。"]}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [passed] but found [failed]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [passed] but found [failed]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.lemon.cases.KeyouCreateProjects.test(KeyouCreateProjects.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.KeyouCreateProjects@19b7332]" name="test" duration-ms="99" started-at="2020-08-18T23:17:15Z" description="keyou创建项目列表description属性" data-provider="datas" finished-at="2020-08-18T23:17:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=4, name='projects', url='http://api.keyou.site:8000/projects/', method='post', params='{"name":"999","leader":"999","tester":"908","programmer":"908","publish_app":"1.0"}', contentType='json', expectResult='{"$.name":["具有 项目名称 的 项目信息 已存在。"]}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.KeyouCreateProjects@19b7332]" name="test" duration-ms="108" started-at="2020-08-18T23:17:15Z" description="keyou创建项目列表description属性" data-provider="datas" finished-at="2020-08-18T23:17:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=5, name='projects', url='http://api.keyou.site:8000/projects/', method='post', params='{"name":"198","leader":"199","tester":"199","programmer":"199","publish_app":"1.0"}', contentType='json', expectResult='{"name":"198"}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:com.lemon.cases.KeyouCreateProjects@19b7332]" name="finish" is-config="true" duration-ms="206" started-at="2020-08-18T23:17:16Z" finished-at="2020-08-18T23:17:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.lemon.cases.KeyouCreateProjects -->
+    </test> <!-- keyou-创建项目 -->
+  </suite> <!-- xxx项目 -->
+</testng-results>

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.377 s <<< FAILURE! - in TestSuite
+test(com.lemon.cases.KeyouCreateProjects)  Time elapsed: 0.122 s  <<< FAILURE!
+java.lang.AssertionError: expected [passed] but found [failed]
+	at com.lemon.cases.KeyouCreateProjects.test(KeyouCreateProjects.java:62)
+

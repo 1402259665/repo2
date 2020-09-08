@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="858410fa-aa7a-4211-9168-244dd3bc1c73" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/software/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\software\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1e7r3iTEvwvmpnTnXR7K7rqTHqA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java_test" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lemon.cases" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn io.qameta.allure:allure-maven:serve" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.E:/javaproject/java19_auto_api_v9/testng.xml">
+    <configuration name="BaseCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lemon.cases.BaseCase" />
+      <module name="java19_auto_api_v8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lemon.cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lemon.utils.HttpUtils" />
+      <module name="java19_auto_api_v8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lemon.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E:/javaproject/java19_auto_api_v9/testng.xml" type="TestNG">
+      <module name="java19_auto_api_v8" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KeyouRegisterCase.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="java19_auto_api_v8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lemon.cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lemon.cases" />
+      <option name="MAIN_CLASS_NAME" value="com.lemon.cases.KeyouRegisterCase" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BaseCase" />
+      <item itemvalue="Application.HttpUtils" />
+      <item itemvalue="TestNG.E:/javaproject/java19_auto_api_v9/testng.xml" />
+      <item itemvalue="TestNG.KeyouRegisterCase.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.KeyouRegisterCase.test" />
+        <item itemvalue="Application.HttpUtils" />
+        <item itemvalue="Application.BaseCase" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="858410fa-aa7a-4211-9168-244dd3bc1c73" name="Default Changelist" comment="" />
+      <created>1593683274561</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593683274561</updated>
+      <workItem from="1594041720446" duration="3733000" />
+      <workItem from="1594120099524" duration="926000" />
+      <workItem from="1594293041546" duration="6794000" />
+      <workItem from="1594430064163" duration="24575000" />
+      <workItem from="1594640353756" duration="261000" />
+      <workItem from="1597761908363" duration="10764000" />
+      <workItem from="1598275206323" duration="1650000" />
+      <workItem from="1598535417130" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="179" key="#Project_Structure" timestamp="1594041946846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1594041946846" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594046172819">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594046172819" />
+    <state x="367" y="181" key="FileChooserDialogImpl" timestamp="1598104166890">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593683977147" />
+    <state x="367" y="181" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598104166890" />
+    <state width="1860" height="336" key="GridCell.Tab.0.bottom" timestamp="1597765526561">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593699000547" />
+    <state width="1860" height="336" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597765526561" />
+    <state width="1860" height="336" key="GridCell.Tab.0.center" timestamp="1597765526560">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593699000547" />
+    <state width="1860" height="336" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597765526560" />
+    <state width="1860" height="336" key="GridCell.Tab.0.left" timestamp="1597765526560">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593699000547" />
+    <state width="1860" height="336" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597765526560" />
+    <state width="1860" height="336" key="GridCell.Tab.0.right" timestamp="1597765526561">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593699000547" />
+    <state width="1860" height="336" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597765526561" />
+    <state width="1877" height="270" key="GridCell.Tab.1.bottom" timestamp="1594459127706">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="270" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594459127706" />
+    <state width="1877" height="270" key="GridCell.Tab.1.center" timestamp="1594459127706">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="270" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594459127706" />
+    <state width="1877" height="270" key="GridCell.Tab.1.left" timestamp="1594459127706">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="270" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594459127706" />
+    <state width="1877" height="270" key="GridCell.Tab.1.right" timestamp="1594459127706">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="270" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594459127706" />
+    <state x="338" y="71" key="SettingsEditor" timestamp="1594041853602">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="270" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593691811242" />
+    <state x="338" y="71" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594041853602" />
+    <state x="64" y="199" width="1720" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598276097906">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="64" y="199" width="1720" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598276097906" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1598535418529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598535418529" />
+    <state x="531" y="236" width="840" height="855" key="run.anything.popup" timestamp="1597765526643">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1593694838702" />
+    <state x="531" y="236" width="840" height="855" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597765526643" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/lemon/pojo/WriteBackData.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java19_auto_api_v9$D__code_java19_auto_api_v8_testng_xml.ic" NAME="D:/code/java19_auto_api_v8/testng.xml Coverage Results" MODIFIED="1594042030979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

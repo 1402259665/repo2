@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="xxx项目">
+<!--    <test name="注册接口">-->
+<!--        <classes>-->
+<!--            <class name="com.lemon.cases.RegisterCase"></class>-->
+<!--            <parameter name="sheetIndex" value="0"></parameter>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="登录接口">-->
+<!--        <classes>-->
+<!--            <class name="com.lemon.cases.LoginCase"></class>-->
+<!--            <parameter name="sheetIndex" value="1"></parameter>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="充值项目">-->
+<!--        <classes>-->
+<!--            <class name="com.lemon.cases.RechargeCase"></class>-->
+<!--            <parameter name="sheetIndex" value="2"></parameter>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="新增项目">-->
+<!--        <classes>-->
+<!--            <class name="com.lemon.cases.AddCase"></class>-->
+<!--            <parameter name="sheetIndex" value="3"></parameter>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="管理员登录">-->
+<!--        <classes>-->
+<!--            <class name="com.lemon.cases.LoginCase"></class>-->
+<!--            <parameter name="sheetIndex" value="4"></parameter>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="审核项目">-->
+<!--        <classes>-->
+<!--            <class name="com.lemon.cases.AuditCase"></class>-->
+<!--            <parameter name="sheetIndex" value="5"></parameter>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="投资">-->
+<!--        <classes>-->
+<!--            <class name="com.lemon.cases.InvestCase"></class>-->
+<!--            <parameter name="sheetIndex" value="6"></parameter>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="keyou-注册">
+        <classes>
+            <class name="com.lemon.cases.KeyouRegisterCase"></class>
+            <parameter name="sheetIndex" value="7"></parameter>
+        </classes>
+    </test>
+    <test name="keyou-登录">
+
+
+
+
+        <classes>
+            <class name="com.lemon.cases.KeyyouLoginCase"></class>
+            <parameter name="sheetIndex" value="8"></parameter>
+        </classes>
+    </test>
+    <test name="keyou-配置列表">
+        <classes>
+            <class name="com.lemon.cases.KeyouConfigures"></class>
+            <parameter name="sheetIndex" value="9"></parameter>
+        </classes>
+    </test>
+    <test name="keyou-项目列表">
+        <classes>
+            <class name="com.lemon.cases.KeyouProjects"></class>
+            <parameter name="sheetIndex" value="10"></parameter>
+        </classes>
+    </test>
+    <test name="keyou-创建项目">
+        <classes>
+            <class name="com.lemon.cases.KeyouCreateProjects"></class>
+            <parameter name="sheetIndex" value="11"></parameter>
+        </classes>
+    </test>
+</suite>

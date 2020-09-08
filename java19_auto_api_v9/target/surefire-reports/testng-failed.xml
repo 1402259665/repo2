@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [xxx项目]">
+  <test name="keyou-创建项目(failed)">
+    <parameter name="sheetIndex" value="11"/>
+    <classes>
+      <class name="com.lemon.cases.KeyouCreateProjects">
+        <methods>
+          <include name="test" invocation-numbers="2"/>
+          <include name="finish"/>
+          <include name="beforeClass"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.lemon.cases.KeyouCreateProjects -->
+    </classes>
+  </test> <!-- keyou-创建项目(failed) -->
+</suite> <!-- Failed suite [xxx项目] -->

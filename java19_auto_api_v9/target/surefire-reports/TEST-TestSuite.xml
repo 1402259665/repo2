@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="12.377" tests="24" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="E:\javaproject\java19_auto_api_v9\target\test-classes;E:\javaproject\java19_auto_api_v9\target\classes;D:\software\maven\apache-maven-3.6.1\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;D:\software\maven\apache-maven-3.6.1\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;D:\software\maven\apache-maven-3.6.1\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\software\maven\apache-maven-3.6.1\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;D:\software\maven\apache-maven-3.6.1\repository\org\testng\testng\6.11\testng-6.11.jar;D:\software\maven\apache-maven-3.6.1\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;D:\software\maven\apache-maven-3.6.1\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;D:\software\maven\apache-maven-3.6.1\repository\cn\afterturn\easypoi-annotation\4.0.0\easypoi-annotation-4.0.0.jar;D:\software\maven\apache-maven-3.6.1\repository\cn\afterturn\easypoi-base\4.0.0\easypoi-base-4.0.0.jar;D:\software\maven\apache-maven-3.6.1\repository\org\apache\poi\poi\4.0.0\poi-4.0.0.jar;D:\software\maven\apache-maven-3.6.1\repository\org\apache\commons\commons-collections4\4.2\commons-collections4-4.2.jar;D:\software\maven\apache-maven-3.6.1\repository\org\apache\poi\poi-ooxml\4.0.0\poi-ooxml-4.0.0.jar;D:\software\maven\apache-maven-3.6.1\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;D:\software\maven\apache-maven-3.6.1\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;D:\software\maven\apache-maven-3.6.1\repository\org\apache\poi\poi-ooxml-schemas\4.0.0\poi-ooxml-schemas-4.0.0.jar;D:\software\maven\apache-maven-3.6.1\repository\org\apache\xmlbeans\xmlbeans\3.0.1\xmlbeans-3.0.1.jar;D:\software\maven\apache-maven-3.6.1\repository\com\google\guava\guava\16.0.1\guava-16.0.1.jar;D:\software\maven\apache-maven-3.6.1\repository\ognl\ognl\3.2.6\ognl-3.2.6.jar;D:\software\maven\apache-maven-3.6.1\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;D:\software\maven\apache-maven-3.6.1\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;D:\software\maven\apache-maven-3.6.1\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;D:\software\maven\apache-maven-3.6.1\repository\com\alibaba\fastjson\1.2.68\fastjson-1.2.68.jar;D:\software\maven\apache-maven-3.6.1\repository\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar;D:\software\maven\apache-maven-3.6.1\repository\commons-dbutils\commons-dbutils\1.6\commons-dbutils-1.6.jar;D:\software\maven\apache-maven-3.6.1\repository\com\github\binarywang\java-testdata-generator\1.1.2\java-testdata-generator-1.1.2.jar;D:\software\maven\apache-maven-3.6.1\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;D:\software\maven\apache-maven-3.6.1\repository\joda-time\joda-time\2.7\joda-time-2.7.jar;D:\software\maven\apache-maven-3.6.1\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\software\maven\apache-maven-3.6.1\repository\io\qameta\allure\allure-testng\2.6.0\allure-testng-2.6.0.jar;D:\software\maven\apache-maven-3.6.1\repository\io\qameta\allure\allure-descriptions-javadoc\2.6.0\allure-descriptions-javadoc-2.6.0.jar;D:\software\maven\apache-maven-3.6.1\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;D:\software\maven\apache-maven-3.6.1\repository\io\qameta\allure\allure-java-commons\2.6.0\allure-java-commons-2.6.0.jar;D:\software\maven\apache-maven-3.6.1\repository\io\qameta\allure\allure2-model-api\1.0-BETA6\allure2-model-api-1.0-BETA6.jar;D:\software\maven\apache-maven-3.6.1\repository\io\qameta\allure\allure2-model-pojo\1.0-BETA6\allure2-model-pojo-1.0-BETA6.jar;D:\software\maven\apache-maven-3.6.1\repository\org\apache\tika\tika-core\1.14\tika-core-1.14.jar;D:\software\maven\apache-maven-3.6.1\repository\io\qameta\allure\allure2-model-jackson\1.0-BETA6\allure2-model-jackson-1.0-BETA6.jar;D:\software\maven\apache-maven-3.6.1\repository\com\fasterxml\jackson\core\jackson-databind\2.7.0\jackson-databind-2.7.0.jar;D:\software\maven\apache-maven-3.6.1\repository\com\fasterxml\jackson\core\jackson-annotations\2.7.0\jackson-annotations-2.7.0.jar;D:\software\maven\apache-maven-3.6.1\repository\com\fasterxml\jackson\core\jackson-core\2.7.0\jackson-core-2.7.0.jar;D:\software\maven\apache-maven-3.6.1\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.7.0\jackson-module-jaxb-annotations-2.7.0.jar;D:\software\maven\apache-maven-3.6.1\repository\org\aspectj\aspectjrt\1.8.10\aspectjrt-1.8.10.jar;D:\software\maven\apache-maven-3.6.1\repository\org\jooq\joor\0.9.6\joor-0.9.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\software\jdk1.8\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\86183\AppData\Local\Temp\surefire6091593226901573757\surefirebooter5201042282738316102.jar C:\Users\86183\AppData\Local\Temp\surefire6091593226901573757 2020-08-18T23-17-02_603-jvmRun1 surefire5872859000295162997tmp surefire_07490139803300414004tmp"/>
+    <property name="surefire.test.class.path" value="E:\javaproject\java19_auto_api_v9\target\test-classes;E:\javaproject\java19_auto_api_v9\target\classes;D:\software\maven\apache-maven-3.6.1\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;D:\software\maven\apache-maven-3.6.1\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;D:\software\maven\apache-maven-3.6.1\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\software\maven\apache-maven-3.6.1\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;D:\software\maven\apache-maven-3.6.1\repository\org\testng\testng\6.11\testng-6.11.jar;D:\software\maven\apache-maven-3.6.1\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;D:\software\maven\apache-maven-3.6.1\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;D:\software\maven\apache-maven-3.6.1\repository\cn\afterturn\easypoi-annotation\4.0.0\easypoi-annotation-4.0.0.jar;D:\software\maven\apache-maven-3.6.1\repository\cn\afterturn\easypoi-base\4.0.0\easypoi-base-4.0.0.jar;D:\software\maven\apache-maven-3.6.1\repository\org\apache\poi\poi\4.0.0\poi-4.0.0.jar;D:\software\maven\apache-maven-3.6.1\repository\org\apache\commons\commons-collections4\4.2\commons-collections4-4.2.jar;D:\software\maven\apache-maven-3.6.1\repository\org\apache\poi\poi-ooxml\4.0.0\poi-ooxml-4.0.0.jar;D:\software\maven\apache-maven-3.6.1\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;D:\software\maven\apache-maven-3.6.1\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;D:\software\maven\apache-maven-3.6.1\repository\org\apache\poi\poi-ooxml-schemas\4.0.0\poi-ooxml-schemas-4.0.0.jar;D:\software\maven\apache-maven-3.6.1\repository\org\apache\xmlbeans\xmlbeans\3.0.1\xmlbeans-3.0.1.jar;D:\software\maven\apache-maven-3.6.1\repository\com\google\guava\guava\16.0.1\guava-16.0.1.jar;D:\software\maven\apache-maven-3.6.1\repository\ognl\ognl\3.2.6\ognl-3.2.6.jar;D:\software\maven\apache-maven-3.6.1\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;D:\software\maven\apache-maven-3.6.1\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;D:\software\maven\apache-maven-3.6.1\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;D:\software\maven\apache-maven-3.6.1\repository\com\alibaba\fastjson\1.2.68\fastjson-1.2.68.jar;D:\software\maven\apache-maven-3.6.1\repository\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar;D:\software\maven\apache-maven-3.6.1\repository\commons-dbutils\commons-dbutils\1.6\commons-dbutils-1.6.jar;D:\software\maven\apache-maven-3.6.1\repository\com\github\binarywang\java-testdata-generator\1.1.2\java-testdata-generator-1.1.2.jar;D:\software\maven\apache-maven-3.6.1\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;D:\software\maven\apache-maven-3.6.1\repository\joda-time\joda-time\2.7\joda-time-2.7.jar;D:\software\maven\apache-maven-3.6.1\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\software\maven\apache-maven-3.6.1\repository\io\qameta\allure\allure-testng\2.6.0\allure-testng-2.6.0.jar;D:\software\maven\apache-maven-3.6.1\repository\io\qameta\allure\allure-descriptions-javadoc\2.6.0\allure-descriptions-javadoc-2.6.0.jar;D:\software\maven\apache-maven-3.6.1\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;D:\software\maven\apache-maven-3.6.1\repository\io\qameta\allure\allure-java-commons\2.6.0\allure-java-commons-2.6.0.jar;D:\software\maven\apache-maven-3.6.1\repository\io\qameta\allure\allure2-model-api\1.0-BETA6\allure2-model-api-1.0-BETA6.jar;D:\software\maven\apache-maven-3.6.1\repository\io\qameta\allure\allure2-model-pojo\1.0-BETA6\allure2-model-pojo-1.0-BETA6.jar;D:\software\maven\apache-maven-3.6.1\repository\org\apache\tika\tika-core\1.14\tika-core-1.14.jar;D:\software\maven\apache-maven-3.6.1\repository\io\qameta\allure\allure2-model-jackson\1.0-BETA6\allure2-model-jackson-1.0-BETA6.jar;D:\software\maven\apache-maven-3.6.1\repository\com\fasterxml\jackson\core\jackson-databind\2.7.0\jackson-databind-2.7.0.jar;D:\software\maven\apache-maven-3.6.1\repository\com\fasterxml\jackson\core\jackson-annotations\2.7.0\jackson-annotations-2.7.0.jar;D:\software\maven\apache-maven-3.6.1\repository\com\fasterxml\jackson\core\jackson-core\2.7.0\jackson-core-2.7.0.jar;D:\software\maven\apache-maven-3.6.1\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.7.0\jackson-module-jaxb-annotations-2.7.0.jar;D:\software\maven\apache-maven-3.6.1\repository\org\aspectj\aspectjrt\1.8.10\aspectjrt-1.8.10.jar;D:\software\maven\apache-maven-3.6.1\repository\org\jooq\joor\0.9.6\joor-0.9.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="allure.results.directory" value="E:\javaproject\java19_auto_api_v9\target/allure-results"/>
+    <property name="user.home" value="C:\Users\86183"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\software\jdk1.8\jre"/>
+    <property name="basedir" value="E:\javaproject\java19_auto_api_v9"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\86183\AppData\Local\Temp\surefire6091593226901573757\surefirebooter5201042282738316102.jar;D:\software\maven\apache-maven-3.6.1\repository/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2.jar"/>
+    <property name="sun.boot.class.path" value="D:\software\jdk1.8\jre\lib\resources.jar;D:\software\jdk1.8\jre\lib\rt.jar;D:\software\jdk1.8\jre\lib\sunrsasign.jar;D:\software\jdk1.8\jre\lib\jsse.jar;D:\software\jdk1.8\jre\lib\jce.jar;D:\software\jdk1.8\jre\lib\charsets.jar;D:\software\jdk1.8\jre\lib\jfr.jar;D:\software\jdk1.8\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="user.name" value="861402259665"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="D:\software\jdk1.8\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="localRepository" value="D:\software\maven\apache-maven-3.6.1\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\86183\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="user.dir" value="E:\javaproject\java19_auto_api_v9"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\software\jdk1.8\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\software\jdk1.8\bin;D:\software\jdk1.8\jre\bin;C:\ProgramData\Oracle\Java\javapath;D:\xshell\;D:\python\Scripts\;D:\python\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\svn\bin;D:\mysql-8.0.17-winx64\bin;D:\ant\apache-ant-1.10.7\bin;D:\node-v12.16.1-win-x64;D:\Python27;D:\Python27\Scripts;D:\software\maven\apache-maven-3.6.1\bin;D:\software\Git\cmd;D:\自定义运行命令;C:\Users\86183\AppData\Local\Microsoft\WindowsApps;D:\PyCharm Community Edition 2019.2.3\bin;C:\Users\86183\AppData\Local\Programs\Fiddler;D:\IntelliJ IDEA 2019.3.2\bin;;D:\software\jenkin;;."/>
+    <property name="idea.version2019.3.2" value="true"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.ext.dirs" value="D:\software\jdk1.8\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="test" classname="com.lemon.cases.KeyouRegisterCase" time="4.698"/>
+  <testcase name="test" classname="com.lemon.cases.KeyouRegisterCase" time="0.106"/>
+  <testcase name="test" classname="com.lemon.cases.KeyouRegisterCase" time="0.092"/>
+  <testcase name="test" classname="com.lemon.cases.KeyouRegisterCase" time="0.1"/>
+  <testcase name="test" classname="com.lemon.cases.KeyouRegisterCase" time="0.215"/>
+  <testcase name="test" classname="com.lemon.cases.KeyouRegisterCase" time="0.092"/>
+  <testcase name="test" classname="com.lemon.cases.KeyyouLoginCase" time="0.094"/>
+  <testcase name="test" classname="com.lemon.cases.KeyyouLoginCase" time="0.206"/>
+  <testcase name="test" classname="com.lemon.cases.KeyyouLoginCase" time="0.105"/>
+  <testcase name="test" classname="com.lemon.cases.KeyyouLoginCase" time="0.221"/>
+  <testcase name="test" classname="com.lemon.cases.KeyyouLoginCase" time="0.219"/>
+  <testcase name="test" classname="com.lemon.cases.KeyouConfigures" time="0.101"/>
+  <testcase name="test" classname="com.lemon.cases.KeyouConfigures" time="0.093"/>
+  <testcase name="test" classname="com.lemon.cases.KeyouConfigures" time="0.097"/>
+  <testcase name="test" classname="com.lemon.cases.KeyouConfigures" time="0.09"/>
+  <testcase name="test" classname="com.lemon.cases.KeyouProjects" time="0.104"/>
+  <testcase name="test" classname="com.lemon.cases.KeyouProjects" time="0.103"/>
+  <testcase name="test" classname="com.lemon.cases.KeyouProjects" time="0.091"/>
+  <testcase name="test" classname="com.lemon.cases.KeyouProjects" time="0.151"/>
+  <testcase name="test" classname="com.lemon.cases.KeyouCreateProjects" time="0.15"/>
+  <testcase name="test" classname="com.lemon.cases.KeyouCreateProjects" time="0.093"/>
+  <testcase name="test" classname="com.lemon.cases.KeyouCreateProjects" time="0.122">
+    <failure message="expected [passed] but found [failed]" type="java.lang.AssertionError">java.lang.AssertionError: expected [passed] but found [failed]
+	at com.lemon.cases.KeyouCreateProjects.test(KeyouCreateProjects.java:62)
+</failure>
+    <system-out><![CDATA[Recharge token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo2MSwidXNlcm5hbWUiOiI0NTY3ODkiLCJleHAiOjE1OTc4NTAyNzMsImVtYWlsIjoiMTQwMjZAcXEuY29tIn0.HrMAO8Fk99Zzus_xegocb6CAGMdBZX-eyowH4KSVxP4
+[INFO] 2020-08-18 23:17:15 method: com.lemon.utils.HttpUtils.printResponse_aroundBody2(HttpUtils.java:242)----[Server: nginx/1.16.1, Date: Tue, 18 Aug 2020 15:17:54 GMT, Content-Type: application/json, Content-Length: 148, Connection: keep-alive, Vary: Accept, Origin, Allow: GET, POST, HEAD, OPTIONS, X-Frame-Options: SAMEORIGIN]
+[INFO] 2020-08-18 23:17:15 method: com.lemon.utils.HttpUtils.printResponse_aroundBody2(HttpUtils.java:247)----{"id":124,"create_time":"2020-08-18T23:17:54.695031+08:00","name":"999","leader":"19","tester":"19","programmer":"19","publish_app":"1.0","desc":""}
+[INFO] 2020-08-18 23:17:15 method: com.lemon.utils.HttpUtils.printResponse_aroundBody2(HttpUtils.java:252)----201
+响应断言结果：false
+]]></system-out>
+  </testcase>
+  <testcase name="test" classname="com.lemon.cases.KeyouCreateProjects" time="0.099"/>
+  <testcase name="test" classname="com.lemon.cases.KeyouCreateProjects" time="0.113"/>
+</testsuite>
